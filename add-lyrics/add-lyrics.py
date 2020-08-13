@@ -67,5 +67,5 @@ if __name__ == '__main__':
 					except:
 						print(f"{filename} ERROR", file=logFile, flush=True)
 
-				print("\n"*5)
-				time.sleep(1)
+					print("\n"*5)
+					time.sleep(30) # To be safe, I dont the exact rate limit
